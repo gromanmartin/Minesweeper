@@ -61,7 +61,7 @@ class TopMenu(QtWidgets.QWidget):
         self.time_passed_label = QtWidgets.QLabel('Time passed:')
         self.time_img = QtWidgets.QLabel('TIME')       
         self.mines_left_label = QtWidgets.QLabel('Mines marked:')
-        self.mines_left_edit = QtWidgets.QLabel('N-')
+        self.mines_left_edit = QtWidgets.QLabel('N-') # <----- THIS NEEDS TO BE EDITABLE
 
         self.menu_layout.addWidget(self.time_passed_label)
         self.menu_layout.addWidget(self.time_img)
